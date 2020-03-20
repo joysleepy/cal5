@@ -1,0 +1,39 @@
+footer{
+    background: rgba(98,125,77,1);
+    background: -moz-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,125,77,1)), color-stop(100%, rgba(31,59,8,1)));
+    background: -webkit-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+    background: -o-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+    background: -ms-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+    background: linear-gradient(to right, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08', GradientType=1 );
+}
+
+section{
+    margin: 1em;
+    padding: 1em;
+}
+
+section#welcome{
+    text-align: center;
+}
+
+
+section#galeria figure{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid grey;
+    margin: 1%;
+}
+
+.column img{
+    width: 100%;
+    height: auto;
+}
+
+.column{
+    /*border: 1px solid gray;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
