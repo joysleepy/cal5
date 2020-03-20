@@ -37,3 +37,7 @@ section#galeria figure{
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
+
+section#contact{
+    text-align: center;
+}
